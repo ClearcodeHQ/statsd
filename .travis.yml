@@ -1,10 +1,9 @@
 language: node_js
 node_js:
-  - '4'
   - '6'
   - '8'
-  - '9'
-  - 'stable'
+  - 'lts/*'
+  - 'node'
 script: ./run_tests.sh
 notifications:
   email: false
